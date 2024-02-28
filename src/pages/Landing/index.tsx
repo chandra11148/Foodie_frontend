@@ -44,7 +44,7 @@ export const Landing = () => {
     await onLogin(state);
   };
   return (
-    <div className="container bg-black text-white h-[100%] flex flex-col-reverse md:flex-row w-full">
+    <div className="bg-black text-white h-[100%] flex flex-col-reverse md:flex-row w-full">
       <Form
         className="flex items-center justify-center w-full h-full p-10"
         onSubmit={handleSubmit}
