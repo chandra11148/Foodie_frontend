@@ -72,7 +72,7 @@ export const Landing = () => {
 
           <div className="w-full md:w-[50%] m-auto flex flex-col gap-2">
             <Button
-              title={loading ? "Loading" : "Login"}
+              title={loading ? "Loading" : "Login/Register"}
               className={`bg-orange-500 text-white hover:bg-orange-600 py-1 px-6 w-full `}
               type="submit"
               disabled={loading}
