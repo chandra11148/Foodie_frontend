@@ -20,7 +20,7 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "/",
+          path: "/dashboard/",
           element: <Home />,
         },
         {
